@@ -1,12 +1,12 @@
 package com.bts.to_do_list_service.response;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @AllArgsConstructor
+@Builder
+@NoArgsConstructor
 public class DataResponse<T> {
 
     int statusCode ;
