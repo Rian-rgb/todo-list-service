@@ -19,7 +19,7 @@ public class MyUserDetailsService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
-        com.bts.to_do_list_service.model.User user = userRespository.findByUsername(username);
+        com.bts.to_do_list_service.entity.User user = userRespository.findByUsername(username);
         if (username == null || !username.equals(user.getUsername())) {
             throw new UsernameNotFoundException("Invalid user");
         }

@@ -1,6 +1,6 @@
 package com.bts.to_do_list_service.repository;
 
-import com.bts.to_do_list_service.model.User;
+import com.bts.to_do_list_service.entity.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

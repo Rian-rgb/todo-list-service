@@ -1,4 +1,4 @@
-package com.bts.to_do_list_service.model;
+package com.bts.to_do_list_service.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

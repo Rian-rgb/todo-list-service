@@ -2,7 +2,7 @@ package com.bts.to_do_list_service.service;
 
 import com.bts.to_do_list_service.exception.custom.BadRequestException;
 import com.bts.to_do_list_service.mapper.RegisterMapper;
-import com.bts.to_do_list_service.model.User;
+import com.bts.to_do_list_service.entity.User;
 import com.bts.to_do_list_service.repository.UserRespository;
 import com.bts.to_do_list_service.request.RegisterRequest;
 import com.bts.to_do_list_service.response.DataResponse;
